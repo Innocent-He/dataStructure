@@ -1,4 +1,4 @@
-package SingleLinkedList;
+package structure.SingleLinkedList;
 
 import java.util.Stack;
 
@@ -9,15 +9,15 @@ import java.util.Stack;
  */
 public class SingleLinkedList {
     public static void main(String[] args) {
- //   SingleLinkedList.Node hgy1 = new SingleLinkedList.Node(1, "hgy");
- //   SingleLinkedList.Node hgy3 = new SingleLinkedList.Node(3, "hgy1");
- //   SingleLinkedList.Node hgy2 = new SingleLinkedList.Node(2, "hgy211");
- //   SingleLinkedList.SingleLinked singleLinked = new SingleLinkedList.SingleLinked();
+ //   structure.SingleLinkedList.Node hgy1 = new structure.SingleLinkedList.Node(1, "hgy");
+ //   structure.SingleLinkedList.Node hgy3 = new structure.SingleLinkedList.Node(3, "hgy1");
+ //   structure.SingleLinkedList.Node hgy2 = new structure.SingleLinkedList.Node(2, "hgy211");
+ //   structure.SingleLinkedList.SingleLinked singleLinked = new structure.SingleLinkedList.SingleLinked();
  //   singleLinked.addByNo(hgy1);
  //   singleLinked.addByNo(hgy2);
  //   singleLinked.addByNo(hgy3);
  //   singleLinked.list();
- //   SingleLinkedList.Node reverse = singleLinked.reverse(singleLinked.getHeadNode());
+ //   structure.SingleLinkedList.Node reverse = singleLinked.reverse(singleLinked.getHeadNode());
  //   singleLinked.setHeadNode(reverse);
  //   singleLinked.list();
  //   singleLinked.reversePrint(singleLinked.getHeadNode());
@@ -249,7 +249,7 @@ class Node{
 
     @Override
     public String toString() {
-        return "SingleLinkedList.Node{" +
+        return "structure.SingleLinkedList.Node{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';

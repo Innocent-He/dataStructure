@@ -1,4 +1,4 @@
-package doubleLinked;
+package structure.doubleLinked;
 
 /**
  * @Author He
@@ -104,9 +104,9 @@ class doubleLinked{
         return length;
     }
   //表反转
-  //ic  doubleLinked.Node reverse(doubleLinked.Node headNodel){
-  //doubleLinked.Node newNode=new doubleLinked.Node(0,"0");
-  //doubleLinked.Node temp;
+  //ic  structure.doubleLinked.Node reverse(structure.doubleLinked.Node headNodel){
+  //structure.doubleLinked.Node newNode=new structure.doubleLinked.Node(0,"0");
+  //structure.doubleLinked.Node temp;
   //while (headNodel.getNext()!=null){
   //    temp=headNodel.getNext();
   //    headNodel.setNext(headNodel.getNext().getNext());
@@ -117,14 +117,14 @@ class doubleLinked{
   //return headNodel;
   //
   //表数据反转输出且不改变链表的结构
-  //ic void reversePrint(doubleLinked.Node headNode){
-  //Stack<String> stack=new Stack();
+  //ic void reversePrint(structure.doubleLinked.Node headNode){
+  //Stack<String> structure.stack=new Stack();
   //while (headNode.getNext()!=null){
-  //    stack.push(headNode.getNext().toString());
+  //    structure.stack.push(headNode.getNext().toString());
   //    headNode.setNext(headNode.getNext().getNext());
   //}
-  //while(!stack.empty()){
-  //    System.out.println(stack.pop());
+  //while(!structure.stack.empty()){
+  //    System.out.println(structure.stack.pop());
   //}
   //
     //遍历输出
@@ -190,7 +190,7 @@ class Node{
 
     @Override
     public String toString() {
-        return "doubleLinked.Node{" +
+        return "structure.doubleLinked.Node{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';

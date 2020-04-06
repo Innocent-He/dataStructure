@@ -1,6 +1,4 @@
-package Queue;
-
-import java.util.*;
+package structure.Queue;
 
 public class TestMain {
     public static void main(String[] args) {

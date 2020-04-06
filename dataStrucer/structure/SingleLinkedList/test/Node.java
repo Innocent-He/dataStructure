@@ -1,4 +1,4 @@
-package SingleLinkedList.test;
+package structure.SingleLinkedList.test;
 
 /**
  * @Author He
