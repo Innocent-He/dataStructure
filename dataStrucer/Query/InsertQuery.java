@@ -4,13 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * 二分查找法如果一直差找不到，left和right会一直趋于接近并重合，最终出现left大于right的情况，此时可以判断出数组中没有要查找的元素
  * @Author He
- * @Date 2020/4/7 20:55
+ * @Date 2020/4/8 21:12
  * @Version 1.0
  */
-public class BinaryQuery {
+public class InsertQuery {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5, 5, 6, 7, 8, 9,10,11};
         System.out.println(start(arr, 5));
@@ -23,7 +21,7 @@ public class BinaryQuery {
     }
 
     public static List<Integer> query(int left, int right, int[] arr, int findValue) {
-        int mid = (left + right) / 2;
+        int mid = left+(right-left)*(findValue-arr[left])/(arr[right]-arr[left]);
         int midValue = arr[mid];
         if(left>right){
             return new ArrayList<>();
@@ -52,5 +50,4 @@ public class BinaryQuery {
             return list;
         }
     }
-
 }

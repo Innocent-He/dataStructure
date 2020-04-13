@@ -1,4 +1,4 @@
-package structure.SingleLinkedList;
+package structure.singleLinkedList;
 
 import java.util.Stack;
 
@@ -9,15 +9,15 @@ import java.util.Stack;
  */
 public class SingleLinkedList {
     public static void main(String[] args) {
- //   structure.SingleLinkedList.Node hgy1 = new structure.SingleLinkedList.Node(1, "hgy");
- //   structure.SingleLinkedList.Node hgy3 = new structure.SingleLinkedList.Node(3, "hgy1");
- //   structure.SingleLinkedList.Node hgy2 = new structure.SingleLinkedList.Node(2, "hgy211");
- //   structure.SingleLinkedList.SingleLinked singleLinked = new structure.SingleLinkedList.SingleLinked();
+ //   structure.singleLinkedList.Node hgy1 = new structure.singleLinkedList.Node(1, "hgy");
+ //   structure.singleLinkedList.Node hgy3 = new structure.singleLinkedList.Node(3, "hgy1");
+ //   structure.singleLinkedList.Node hgy2 = new structure.singleLinkedList.Node(2, "hgy211");
+ //   structure.singleLinkedList.SingleLinked singleLinked = new structure.singleLinkedList.SingleLinked();
  //   singleLinked.addByNo(hgy1);
  //   singleLinked.addByNo(hgy2);
  //   singleLinked.addByNo(hgy3);
  //   singleLinked.list();
- //   structure.SingleLinkedList.Node reverse = singleLinked.reverse(singleLinked.getHeadNode());
+ //   structure.singleLinkedList.Node reverse = singleLinked.reverse(singleLinked.getHeadNode());
  //   singleLinked.setHeadNode(reverse);
  //   singleLinked.list();
  //   singleLinked.reversePrint(singleLinked.getHeadNode());
@@ -249,7 +249,7 @@ class Node{
 
     @Override
     public String toString() {
-        return "structure.SingleLinkedList.Node{" +
+        return "structure.singleLinkedList.Node{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';
